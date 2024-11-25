@@ -1,0 +1,10 @@
+id (INTEGER, PRIMARY KEY)
+first_name (VARCHAR(50), NOT NULL)
+last_name (VARCHAR(50), NOT NULL)
+position (VARCHAR(50), NOT NULL)
+
+
+id: 1
+first_name: "Alice"
+last_name: "Johnson"
+position: "Software Engineer"

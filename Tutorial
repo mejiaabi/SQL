@@ -1,10 +1,26 @@
-id (INTEGER, PRIMARY KEY)
-first_name (VARCHAR(50), NOT NULL)
-last_name (VARCHAR(50), NOT NULL)
-position (VARCHAR(50), NOT NULL)
+SELECT * FROM users;
+
+SELECT username, email FROM users;
+
+SELECT * FROM users 
+WHERE username = 'john_doe';
+
+SELECT * FROM users 
+ORDER BY created_at DESC;
+
+UPDATE users 
+SET email = 'john.updated@example.com' 
+WHERE username = 'john_doe';
+
+UPDATE users 
+SET email = 'jane.updated@example.com', username = 'jane_updated' 
+WHERE user_id = 2;
 
 
-id: 1
-first_name: "Alice"
-last_name: "Johnson"
-position: "Software Engineer"
+
+
+
+
+
+
+
